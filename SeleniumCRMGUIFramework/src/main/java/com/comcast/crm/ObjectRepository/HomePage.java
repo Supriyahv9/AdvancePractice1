@@ -35,6 +35,14 @@ public class HomePage {
 	@FindBy(linkText="Campaigns")
 	private WebElement CampaignLink;
 	
+	@FindBy(linkText="Product")
+	private WebElement ProductLink;
+	
+	public WebElement getProductLink() {
+		return ProductLink;
+	}
+
+
 	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
 	private WebElement Adminimg;
 	
